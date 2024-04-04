@@ -235,6 +235,7 @@ const TransformationForm = ({
           image={image}
           type={type}
           title={form.getValues().title}
+          isTransforming={isTransforming}
           setIsTransforming={setIsTransforming}
           transformationConfig={transformationConfig}
           />
